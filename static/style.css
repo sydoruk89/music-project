@@ -18,6 +18,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
   
+.jum {
+background-image: url("img/headphones.jpg") !important;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 0.95;
+background-size: cover;
+}
+
 .display-4 {
     font-size: 2.5rem;
 }
@@ -34,6 +42,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.6rem !important;
     margin: 0.5rem 0.5rem 0.5rem 0;
     width: 5rem;
+    background-color: linear-g;
+}
+.btn-primary {
+    background-image: linear-gradient(to bottom, rgb(3, 90, 196) , rgb(53, 158, 250));
+}
+.bd-placeholder-img {
+    opacity: 0.8;
+    border-radius: 5px;
 }
 
 @media (min-width: 768px) {
