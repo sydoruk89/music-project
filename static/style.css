@@ -44,8 +44,8 @@ background-size: cover;
     width: 5rem;
     background-color: linear-g;
 }
-.btn-primary {
-    background-image: linear-gradient(to bottom, rgb(3, 90, 196) , rgb(53, 158, 250));
+.btn-info {
+    background-image: linear-gradient(to bottom, #25cbe4 , #118a9d);
 }
 .bd-placeholder-img {
     opacity: 0.8;
