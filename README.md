@@ -4,7 +4,7 @@
 
 ## Description
 
-The application creates a music project with one model and wire up that model using Django Views. Also there is a possibility to create. update or delete data.
+The application creates a music project with one model and wire up that model using Django Views. Also there is a possibility to create. update or delete data (CRUD).
 
 ## Architecture
 
