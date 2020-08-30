@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}
+<title> Delete your album</title>
+{% endblock title%}
+
+{% block content %}
+<h2>Do you want to delete your album?</h2>
+
+<form action='' method="POST" class=form-login>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input class="btn btn-sm btn-primary btn-pad" type="submit" value="Yes">
+    <a href="/">
+        <input class="btn btn-sm btn-primary btn-pad" type="button" value="No" />
+     </a>
+</form>
+
+{% endblock content %}

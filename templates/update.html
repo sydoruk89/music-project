@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+<title> Update your data</title>
+{% endblock title%}
+
+{% block content %}
+<h2>Edit the album</h2>
+
+<form action='' method="POST" class=form-login>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input class="btn btn-sm btn-primary btn-pad" type="submit" value="Update">
+</form>
+
+{% endblock content %}

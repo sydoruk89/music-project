@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% block title %}
+    <title>Album detail</title>
+{% endblock title %}
+
+{% block content %}
+<div class="blog-post">
+    <h2 class="blog-post-title">{{object.title}}</h2>
+    <p class="blog-post-meta">{{object.time}} by <a href="#">{{object.author}}</a></p>
+    <p>{{object.body}}</p>
+    <a class="btn btn-sm btn-primary btn-pad" href="/detail/{{object.id}}/edit">Edit</a>
+    <a class="btn btn-sm btn-primary btn-pad" href="/detail/{{object.id}}/delete">Delete</a>
+  </div><!-- /.blog-post -->
+{% endblock content %}

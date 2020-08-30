@@ -1,0 +1,11 @@
+setup.py
+music_project/__init__.py
+music_project/asgi.py
+music_project/settings.py
+music_project/urls.py
+music_project/wsgi.py
+music_project.egg-info/PKG-INFO
+music_project.egg-info/SOURCES.txt
+music_project.egg-info/dependency_links.txt
+music_project.egg-info/requires.txt
+music_project.egg-info/top_level.txt
