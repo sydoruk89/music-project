@@ -5,7 +5,11 @@
 
 {% block content %}
 <h2>Do you want to delete your album?</h2>
-
+<div class="blog-post">
+    <h2 class="blog-post-title">{{object.title}}</h2>
+    <p class="blog-post-meta"><strong>Added: </strong>{{object.time}} by <a href="#">{{object.artist}}</a></p>
+    <p>{{object.body}}</p>
+</div>
 <form action='' method="POST" class=form-login>
     {% csrf_token %}
     {{ form.as_p }}
